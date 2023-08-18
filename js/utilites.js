@@ -15,3 +15,14 @@ function setElementInnerText(elementId, area){
     const element = document.getElementById(elementId);
     element.innerText = area;
 }
+
+
+/*
+
+// Data validation
+1. set the proper type pf the input field. (Number, data, email, etc)
+2. check type using typeOf method
+3. NAN means: Not a number. isNaN is checking whether the input is not a number or not
+
+
+*/

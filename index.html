@@ -79,6 +79,26 @@
                       </div>
                     </div>
                   </div>
+                <!-- pentagon card -->
+                <div class="card bg-base-100 shadow-xl">
+                    <figure><img src="images/pentagon.png" alt="pentagon" /></figure>
+                    <div class="card-body text-center">
+                      <h2 class="text-3xl">Pentagon </h2>
+                      <p>Area (A) = 0.5 X p X b</p>
+                      <p>
+                        <!-- pentagon width -->
+                        <input type="text" name="" placeholder="p" id="pentagon-p" class="border w-20 px-2 text-xl bg-gray-200">
+                        <span class="ml-2">CM</span>
+                        <!-- pentagon length -->
+                        <input type="text" name="" placeholder="b" id="pentagon-b" class="border w-20 px-2 text-xl ml-5 bg-gray-200">
+                        <span class="ml-3">CM</span>
+                      </p>
+                      <p class="text-start mt-4 text-2xl">Area: <span class="mr-2" id="pentagon-area">0</span>cm<sup>2</sup></p>
+                      <div class="card-actions mt-8">
+                        <button onclick="calculatePentagonArea()" class="btn btn-primary  w-full">Calculate</button>
+                      </div>
+                    </div>
+                  </div>
                 <!-- ellipse card -->
                 <div class="card bg-base-100 shadow-xl">
                     <figure><img src="images/ellipse.png" alt="ellipse" /></figure>
