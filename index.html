@@ -14,9 +14,9 @@
 
     </header>
 
-    <main>
+    <main class="px-5">
         <!-- main container -->
-        <div class="flex flex-col lg:flex-row mt-20">
+        <div class="flex flex-col lg:flex-row mt-20 gap-10">
             <!-- Shape container -->
             <div class="flex-1 grid grid-cols-1 md:grid-flow-col-2 lg:grid-cols-3 gap-6">
                 <!-- Triangle card -->
@@ -63,13 +63,13 @@
                 <div class="card bg-base-100 shadow-xl">
                     <figure><img src="images/parallelogram.png" alt="parallelogram" /></figure>
                     <div class="card-body text-center">
-                      <h2 class="text-3xl">parallelogram</h2>
+                      <h2 class="text-3xl">Parallelogram</h2>
                       <p>Area (A) = b X h</p>
                       <p>
-                        <!-- rectangle width -->
+                        <!-- Parallelogram width -->
                         <input type="text" name="" placeholder="base" id="parallelogram-base" class="border w-20 px-2 text-xl bg-gray-200">
                         <span class="ml-2">CM</span>
-                        <!-- rectangle length -->
+                        <!-- Parallelogram length -->
                         <input type="text" name="" placeholder="height" id="parallelogram-height" class="border w-20 px-2 text-xl ml-5 bg-gray-200">
                         <span class="ml-3">CM</span>
                       </p>
@@ -119,14 +119,11 @@
                       </div>
                     </div>
                   </div>
-                            
-
             </div>
             <!-- area calculator -->
             <div class="w-[400px]">
-                <div class="text-4xl">
-                    Area Calculation
-                </div>
+                <div class="text-4xl">Area Calculation</div>
+                <div id="calculation-entry"></div>
                 </div>
         </div>
         
